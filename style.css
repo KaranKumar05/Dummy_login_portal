@@ -93,12 +93,19 @@ body {
     .back:hover{
       text-decoration: underline;
     }
-  @media (min-width: 375px) and (max-width: 491px) {
+  @media (min-width: 300px) and (max-width: 491px) {
     .logo img {
       width: 60%;
     }
     .pages {
       padding: 2em 3em;
+    }
+    h3{
+      margin-top: 1px;
+    }
+    .back{
+      left: 12em;
+      top: 1.5em;
     }
   }
   
